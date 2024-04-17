@@ -19,7 +19,7 @@ public class Donbot extends TRM {
         donbot.list.add("lisa");
 
         do {
-            System.out.println("Enter 1 to replace a member or 2 to add a new member");
+            System.out.println("Enter 1 to replace a member or 2 to add a new member or 3 for the roboassociates to sell product");
             while (!usrInput.hasNextInt()) {
                 usrInput.next(); // Consume the invalid input
                 System.out.println("Please enter an integer value.");
@@ -30,8 +30,9 @@ public class Donbot extends TRM {
                 donbot.replaceMember();
             } else if (usr == 2) {
                 donbot.addMember();
-            }
-        } while (usr == 1 || usr == 2);
+            } else if (usr == 3){
+		Robossociates.sellProduct();
+        } while (usr == 1 || usr == 2|| usr ==3 );
     }
 
     public void addMember() {
