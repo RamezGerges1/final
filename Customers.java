@@ -26,7 +26,7 @@ public class Customers extends TRM {
     }
 
     public static void paymentMethod() {
-        System.out.println("How would you like to pay?");
+        System.out.println("The amount is $"+Robossociates.money+ ". How would you like to pay?");
         System.out.println("Enter 1 for cash, 2 for card or check");
         answer2 = usrInput.nextInt();
         if (answer2 == 1) {
