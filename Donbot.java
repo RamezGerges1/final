@@ -103,30 +103,39 @@ public class Donbot extends TRM {
     	switch(usr) {
     	case 1:
     		System.out.println("Donbot assigned"+ NewMember.name + "a task of interrogation");
+			Roboassociates.participateInDeal();
     		break;
     	case 2:
     		System.out.println("Donbot assigned"+ NewMember.name + "a task of Robo-napping");
+			Roboassociates.participateInDeal();
     		break;
     	case 3:
     		System.out.println("Donbot assigned"+ NewMember.name + "a task of Trafficking of human arms and legs");
+			Roboassociates.participateInDeal();
     		break;
     	case 4:
     		System.out.println("Donbot assigned"+ NewMember.name + "a task of Evidence tampering");
+			Roboassociates.participateInDeal();
     		break;
     	case 5:
     		System.out.println("Donbot assigned"+ NewMember.name + "a task of Running a scheme");
+			Roboassociates.participateInDeal();
     		break;
     	case 6:
     		System.out.println("Donbot assigned"+ NewMember.name + "a task of Breaking robot parts");
+			Roboassociates.participateInDeal();
     		break;
     	case 7:
     		System.out.println("Donbot assigned"+ NewMember.name + "a task of Blackmailing");
+			Roboassociates.participateInDeal();
     		break;
     	case 8:
     		System.out.println("Donbot assigned"+ NewMember.name + "a task of Arson");
+			Roboassociates.participateInDeal();
     		break;
     	case 9:
     		System.out.println("Donbot assigned"+ NewMember.name + "a task of Stealing");
+			Roboassociates.participateInDeal();
     		break;
     	}
     }
