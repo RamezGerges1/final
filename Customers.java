@@ -7,7 +7,6 @@ public class Customers extends TRM {
 
     static int amount;
 
-    static boolean paymentAccepted;
     public static void purchaseProduct() {
         System.out.println("Would you like to purchase product?");
         System.out.println("Enter 1 if you would like to purchase product or 2 otherwise");
@@ -30,9 +29,8 @@ public class Customers extends TRM {
         System.out.println("Enter 1 for cash, 2 for card or check");
         answer2 = usrInput.nextInt();
         if (answer2 == 1) {
-            paymentAccepted = true;
+           System.out.println("Payment method Accepted!");
         } else if (answer2 == 2) {
-            paymentAccepted = false;
             System.out.println("Payment method Declined!");
         }
     }
