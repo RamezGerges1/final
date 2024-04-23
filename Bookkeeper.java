@@ -1,4 +1,4 @@
-public class BookKeeper extends TRM {
+public class Bookkeeper extends TRM {
     public int money;
 	public static double netWorth;
     public static void distributeProfit(double cleanMoney) {
