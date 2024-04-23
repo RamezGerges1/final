@@ -6,6 +6,7 @@ public class Bookkeeper extends TRM {
         BookKeeper.increaseNetWorth(cleanMoney*.05);
         Clamps.increaseNetWorth(cleanMoney*.15);
         Donbot.increaseNetWorth(cleanMoney*.45);
+	PoliceOnPayRoll.increaseNetWorth(cleanMoney*.15);
         JoeyMousepad.increaseNetWorth(cleanMoney*.10);
 
         System.out.println("Robossociates received $" + cleanMoney*.10);
@@ -14,8 +15,8 @@ public class Bookkeeper extends TRM {
         System.out.println("Bookkeeper received " + cleanMoney*.05);
         System.out.println("Bookkeeper net worth now is $" + BookKeeper.netWorth);
         
-        System.out.println("Police received " + cleanMoney*.15);
-        //System.out.println("Robossociates net worth now is $" + BookKeeper.netWorth);
+        System.out.println("Police on payroll received " + cleanMoney*.15);
+        System.out.println("Police on payroll net worth now is $" + PoliceOnPayRoll.netWorth);
         
         System.out.println("Clamps received " + cleanMoney*.15);
         System.out.println("Clamps net worth now is $" + Clamps.netWorth);
